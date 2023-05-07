@@ -159,11 +159,11 @@ return [
         /*
          * Package Service Providers...
          */
+        Ensi\LaravelServeSwagger\ServeSwaggerServiceProvider::class,
 
         /*
          * Application Service Providers...
          */
-        Ensi\LaravelServeSwagger\ServeSwaggerServiceProvider::class,
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
