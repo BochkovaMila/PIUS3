@@ -1,7 +1,8 @@
 <?php
 
-namespace Database\Factories;
+namespace Database\Factories\Domain\Doctors\Models;
 
+use App\Domain\Doctors\Models\Doctor;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Faker\Factory as Faker;
 
@@ -16,7 +17,7 @@ class DoctorFactory extends Factory
      *
      * @return array<string, mixed>
      */
-    public function definition(): array
+    public function definition()
     {
         return [
             'name' => $this->faker->firstName.' '.$this->faker->lastName,

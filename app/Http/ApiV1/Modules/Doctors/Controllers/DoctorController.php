@@ -12,6 +12,7 @@ use App\Http\ApiV1\Modules\Doctors\Requests\CreateDoctorRequest;
 use App\Http\ApiV1\Modules\Doctors\Requests\PatchDoctorRequest;
 use App\Http\ApiV1\Modules\Doctors\Requests\ReplaceDoctorRequest;
 use App\Http\ApiV1\Modules\Doctors\Resources\DoctorResource;
+use App\Http\ApiV1\Support\Resources\EmptyResource;
 use Illuminate\Http\Request;
 
 class DoctorController 

@@ -12,6 +12,7 @@ use App\Http\ApiV1\Modules\Patients\Requests\CreatePatientsRequest;
 use App\Http\ApiV1\Modules\Patients\Requests\PatchPatientsRequest;
 use App\Http\ApiV1\Modules\Patients\Requests\ReplacePatientsRequest;
 use App\Http\ApiV1\Modules\Patients\Resources\PatientsResource;
+use App\Http\ApiV1\Support\Resources\EmptyResource;
 use Illuminate\Http\Request;
 
 class PatientController 

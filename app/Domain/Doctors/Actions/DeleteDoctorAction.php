@@ -2,7 +2,7 @@
 
 namespace App\Domain\Doctors\Actions;
 
-use App\Domain\Doctors\Models\Doctors;
+use App\Domain\Doctors\Models\Doctor;
 
 class DeleteDoctorAction
 {

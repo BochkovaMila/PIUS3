@@ -1,6 +1,6 @@
 <?php
 
-namespace Database\Factories;
+namespace Database\Factories\Domain\Appointments\Models;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use App\Domain\Doctors\Models\Doctor;
@@ -16,7 +16,7 @@ class AppointmentFactory extends Factory
      *
      * @return array<string, mixed>
      */
-    public function definition(): array
+    public function definition()
     {
         return [
             'doctor_id' => Doctor::factory(),

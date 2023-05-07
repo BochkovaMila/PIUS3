@@ -12,6 +12,7 @@ use App\Http\ApiV1\Modules\Appointments\Requests\CreateAppointmentRequest;
 use App\Http\ApiV1\Modules\Appointments\Requests\PatchAppointmentRequest;
 use App\Http\ApiV1\Modules\Appointments\Requests\ReplaceAppointmentRequest;
 use App\Http\ApiV1\Modules\Appointments\Resources\AppointmentResource;
+use App\Http\ApiV1\Support\Resources\EmptyResource;
 use Illuminate\Http\Request;
 
 class AppointmentController 
