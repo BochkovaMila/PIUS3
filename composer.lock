@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8e6e7fe5fd9d19060838a2fee2857ca4",
+    "content-hash": "297e2248d80faa7c04a5d552ef7f56ed",
     "packages": [
         {
             "name": "brick/math",
@@ -431,6 +431,49 @@
                 }
             ],
             "time": "2023-01-14T14:17:03+00:00"
+        },
+        {
+            "name": "ensi/laravel-serve-swagger",
+            "version": "0.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ensi-platform/laravel-serve-swagger.git",
+                "reference": "7de386e6f03838dab3ee9444a9f8c205a22c6f6f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ensi-platform/laravel-serve-swagger/zipball/7de386e6f03838dab3ee9444a9f8c205a22c6f6f",
+                "reference": "7de386e6f03838dab3ee9444a9f8c205a22c6f6f",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0",
+                "swagger-api/swagger-ui": "^3.30.0 || ^4"
+            },
+            "require-dev": {
+                "laravel/framework": "^8.0 || ^9.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ensi\\LaravelServeSwagger\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Golubkova Natalia",
+                    "email": "golubkova@greensight.ru"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/ensi-platform/laravel-serve-swagger/issues",
+                "source": "https://github.com/ensi-platform/laravel-serve-swagger/tree/0.3.1"
+            },
+            "time": "2022-02-18T11:26:59+00:00"
         },
         {
             "name": "fruitcake/php-cors",
@@ -2996,6 +3039,67 @@
                 }
             ],
             "time": "2023-04-15T23:01:58+00:00"
+        },
+        {
+            "name": "swagger-api/swagger-ui",
+            "version": "v4.18.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swagger-api/swagger-ui.git",
+                "reference": "6d6374baa8df31a1b8f5fc91fb9970233c432a23"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swagger-api/swagger-ui/zipball/6d6374baa8df31a1b8f5fc91fb9970233c432a23",
+                "reference": "6d6374baa8df31a1b8f5fc91fb9970233c432a23",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Anna Bodnia",
+                    "email": "anna.bodnia@gmail.com"
+                },
+                {
+                    "name": "Buu Nguyen",
+                    "email": "buunguyen@gmail.com"
+                },
+                {
+                    "name": "Josh Ponelat",
+                    "email": "jponelat@gmail.com"
+                },
+                {
+                    "name": "Kyle Shockey",
+                    "email": "kyleshockey1@gmail.com"
+                },
+                {
+                    "name": "Robert Barnwell",
+                    "email": "robert@robertismy.name"
+                },
+                {
+                    "name": "Sahar Jafari",
+                    "email": "shr.jafari@gmail.com"
+                }
+            ],
+            "description": " Swagger UI is a collection of HTML, Javascript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API.",
+            "homepage": "http://swagger.io",
+            "keywords": [
+                "api",
+                "documentation",
+                "openapi",
+                "specification",
+                "swagger",
+                "ui"
+            ],
+            "support": {
+                "issues": "https://github.com/swagger-api/swagger-ui/issues",
+                "source": "https://github.com/swagger-api/swagger-ui/tree/v4.18.3"
+            },
+            "time": "2023-04-26T13:09:21+00:00"
         },
         {
             "name": "symfony/console",
