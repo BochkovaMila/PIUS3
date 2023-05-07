@@ -4,6 +4,8 @@ info:
   title: Swagger Doctors & Patients - OpenAPI 
   license:
     name: MIT
+servers:
+  - url: api/v1
 tags:
   - name: doctors
     description: Doctors requests

@@ -4,7 +4,7 @@ namespace App\Http\ApiV1\Modules\Doctors\Controllers;
 
 use App\Domain\Doctors\Actions\CreateDoctorAction;
 use App\Domain\Doctors\Actions\DeleteDoctorAction;
-use App\Domain\Doctors\Actions\GetAllDoctorAction;
+use App\Domain\Doctors\Actions\GetAllDoctorsAction;
 use App\Domain\Doctors\Actions\GetDoctorAction;
 use App\Domain\Doctors\Actions\PatchDoctorAction;
 use App\Domain\Doctors\Actions\ReplaceDoctorAction;

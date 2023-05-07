@@ -18,7 +18,7 @@ class PatientFactory extends Factory
     public function definition(): array
     {
         return [
-            'name' => $this->faker->realText(50),
+            'name' => $this->faker->firstName.' '.$this->faker->lastName,
             'specialization' => $this->faker->realText(500),
         ];
     }
