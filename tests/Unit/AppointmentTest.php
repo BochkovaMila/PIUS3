@@ -2,7 +2,7 @@
 
 namespace Tests\Unit;
 
-use App\Domain\appointments\Models\Appointment;
+use App\Domain\Appointments\Models\Appointment;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 use Illuminate\Testing\Fluent\AssertableJson;

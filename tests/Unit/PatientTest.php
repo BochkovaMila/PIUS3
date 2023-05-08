@@ -120,7 +120,7 @@ it('put patient by id with bad request response', function () {
 it('patch patient by id with ok response', function () {
     $patient = Patient::factory()->create();
     $patchDoctor = Patient::factory()->raw();
-    $response = patchJson('/api/v1/patient/'. $buyer->id, $patchDoctor);
+    $response = patchJson('/api/v1/patient/'. $patient->id, $patchDoctor);
     $response->assertStatus(200)->assertJson(fn (AssertableJson $json) =>
         $json->has(
             'data',
